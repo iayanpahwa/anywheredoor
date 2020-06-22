@@ -25,7 +25,7 @@ The clipboard payloads are end-to-end encrypted using light weight yet effective
 **Working**
 **************
 
-The applications when running, monitor changes in system's clipboard every few seconds (default = 3s) and if there is a new content on your clipboard it encrypts that and publishes it using MQTT protocol on a topic(defined in config file) to a MQTT broker. The other workstations (also subscribers) where this application is running receives the payload from the broker, decrypts it and copies it to the clipboard of the machine it's running and the user can then paste it whenever and wherever needed. Since it directly monitors the clipboard all traditional methods of copy and paste works including keyboard shortcuts across all platforms.
+The applications when running, monitor changes in system's clipboard every few seconds (default = 1s) and if there is a new content on your clipboard it encrypts that and publishes it using MQTT protocol on a topic(defined in config file) to a MQTT broker. The other workstations (also subscribers) where this application is running receives the payload from the broker, decrypts it and copies it to the clipboard of the machine it's running and the user can then paste it whenever and wherever needed. Since it directly monitors the clipboard all traditional methods of copy and paste works including keyboard shortcuts across all platforms.
 
 **Tested with Python 3.8 running on :**
 
