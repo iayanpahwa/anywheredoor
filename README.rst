@@ -118,7 +118,7 @@ Repeat step 5-7 on all your machines and keep them running until you want to syn
 Please Note: Currently it's not very processor optimized because of always running background tasks and polling loops. 
 
 - Optimize subscriber (Highest Priority)
-- Implement clipboard sharing for images as well since currently only text is supported (Low priority)
+- Implement clipboard sharing for images as well since currently only text is supported (Low priority/Maybe)
 - Package the project for easy installation and deployment (High Priority)
 - Implement GUI application (Require contributors)
 - Create systems service for linux (Low Priority)
