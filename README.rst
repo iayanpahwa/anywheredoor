@@ -101,13 +101,13 @@ and save the config file after doing above changes
 
 Launch clipboard publisher by executing::
 
-    python3 anywheredoor/anywheredoor_pub.py --config anywheredoor.conf
+    python3 anywheredoor/anywheredoor_pub.py --config anywheredoor/anywheredoor.conf
 
 **Step 7:**
 
 Execute clipboard subscriber by executing following in new terminal session::
 
-    python3 anywheredoor/anywheredoor_sub.py --config anywheredoor.conf
+    python3 anywheredoor/anywheredoor_sub.py --config anywheredoor/anywheredoor.conf
 
 Repeat step 5-7 on all your machines and keep them running until you want to sync all the clipboards
 
