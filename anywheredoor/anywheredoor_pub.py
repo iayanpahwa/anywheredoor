@@ -64,7 +64,7 @@ def main():
     
     try:
         while True:
-            tmp_value = pyperclip.paste()  
+            tmp_value = pyperclip.paste()
             if tmp_value != recent_value:
                 recent_value = tmp_value
                 logger_name.info(f'Encrypting {recent_value}')
@@ -77,7 +77,7 @@ def main():
                     logger_name.critical('Connection to broker failed!!! \
                                          Check your connection and broker address !!!')
 
-                sleep(int(config['DEFAULT']['WAIT']))
+            sleep(int(config['DEFAULT']['WAIT']))
     except KeyboardInterrupt:
         logger_name.critical('Interrupt Received!! Exiting')
 
